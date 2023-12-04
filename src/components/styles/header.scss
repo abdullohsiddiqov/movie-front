@@ -1,0 +1,118 @@
+.header {
+    padding-top: 60px;
+    background-image: url("../../images/download\ 1.png");
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-left: 120px;
+    gap: 10px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    & > p {
+      margin: 0;
+    }
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Poppins";
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: left;
+      background: #e50914;
+      width: 50px;
+      height: 20px;
+      top: 215px;
+      left: 151px;
+      border-radius: 100px;
+    }
+    .name {
+      font-family: "Poppins";
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 90px;
+      letter-spacing: 0em;
+      text-align: left;
+      width: 780px;
+      height: 90px;
+      top: 238px;
+      left: 152px;
+    }
+    .info {
+      font-family: "Poppins";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: left;
+      width: 424px;
+      height: 63px;
+      top: 338px;
+      left: 151px;
+    }
+    .info2 {
+      font-family: "Poppins";
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .about_movie {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      & > span {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      .ball {
+        font-family: "Poppins";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      .num {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #e50914;
+      }
+    }
+    button {
+      width: 126px;
+      height: 40px;
+      top: 528px;
+      left: 151px;
+      background-color: #e50914;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #fff;
+      border-radius: 50px;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
