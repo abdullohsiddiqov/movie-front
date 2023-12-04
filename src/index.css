@@ -1,0 +1,237 @@
+*{ 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_card {
+    cursor: pointer;
+    color: #fff;
+    width: 760px;
+    height: 390px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 770px;
+    -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card_left {
+    width: 90%;
+}
+
+.card_datails {
+    width: 90%;
+    padding: 30px;
+    margin-top: -25px;
+}
+
+.card_datails h1 {
+    font-size: 30px;
+}
+
+.card_right img {
+    height: 390px;
+    border-radius: 2px;
+}
+
+.card_right {
+    border-radius: 2px;
+}
+
+.card_cat {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.PG,
+.year,
+.genre,
+.time {
+    color: fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.PG {
+    background: red;
+}
+
+.year {
+    color: fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.year {
+    background-color: red;
+}
+
+.genre {
+    color: fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.genre {
+    background-color: red;
+}
+
+.time {
+    color: fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.time {
+    background-color: red;
+}
+.disc {
+    font-weight: 100;
+    line-height: 27px;
+}
+
+a {
+    color: red;
+    display: block;
+    text-decoration: none;
+}
+.ar{ 
+    padding-top: 10px;
+}
+.PG{ 
+    margin-top: 20px;
+}
+.year{ 
+    margin-top: 20px;
+}
+.genre{ 
+    margin-top: 20px;
+}
+.time{ 
+    margin-top: 20px;
+}
+.country{ 
+    margin-top: 20px;
+}
+.grid{ 
+    display: grid;
+    grid-template-columns: repeat(2,760px);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+.col{
+    color: white;
+    font-size: 18px
+}
+.home{ 
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+}
+nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 620px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.aelm{ 
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+.min_flex{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+.elements{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.svg{ 
+    width: 40px;
+    height: 40px;
+}
+.oval{ 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    cursor: pointer;
+}
+.logEmail{ 
+    color: red!important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.logName{ 
+    color: red!important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.logPassword{ 
+    color: red!important;
+    font-size: 18px;
+    font-weight: 500;
+}
+span{ 
+    color: red!important;
+}
+.sing-in{ 
+    color: black;
+    background-color: red;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+h1{ 
+    color: red;
+}
+.login{ 
+    margin-top: 100px;
+}
