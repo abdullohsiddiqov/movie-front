@@ -1,14 +1,14 @@
 import React, { useEffect,useState } from 'react';
 // import {Navbar} from './components/navbar';
 // import { GetMovies } from './components/movies';
-// import { GetGenres } from './components/genres';
+// import { GetGenres } from './components/genres';0
 import { IEntity } from './types/type';
 import {
   BrowserRouter as Router,
   Route,
   Link,
 } from 'react-router-dom';
-import './components/styles/index.css'
+import './components/styles/index.scss'
 function App() {
   const [movie ,setMovie] = useState([])
   const [genres ,setGenres] = useState([])
